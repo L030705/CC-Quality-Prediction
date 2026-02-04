@@ -13,6 +13,7 @@
 利用 POD 算法对模拟物理场（图像）进行压缩与重构：
 
 ![SVD Result](svd_result.png)
+![SVD Result1](svd_result1.png)
 *(上图为本周代码运行结果：左图为原始场，右图为 POD 重构场)*
 
 ## 4. 下周计划

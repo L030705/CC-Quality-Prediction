@@ -8,7 +8,7 @@
 本项目基于 Python 3.10 + PyTorch 构建。
 ```bash
 pip install -r requirements.txt
-```bash
+```
 ## 3. 快速复现（Quick Start）
 请按顺序执行以下脚本即可复现全流程实验。
 第一步：生成仿真数据
@@ -29,5 +29,6 @@ python run.py --task_name long_term_forecast --is_training 1 --root_path ./datas
 将预测的抽象系数反投影回二维空间，生成对比云图。
 ```bash
 python vis_result.py
+```
 ## 4. 实验结果 (Results)
 数字孪生效果对比: 模型成功预测了热源的移动路径与强度衰减，误差图 (Error Map) 接近全零。

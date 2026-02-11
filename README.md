@@ -35,3 +35,4 @@ python vis_result.py
 ```
 ## 4. 实验结果 (Results)
 数字孪生效果对比: 模型成功预测了热源的移动路径与强度衰减，误差图 (Error Map) 接近全零。
+![Result](vis_result_img.png)

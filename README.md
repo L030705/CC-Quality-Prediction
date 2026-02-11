@@ -21,8 +21,8 @@ python generate_mock_data.py
 提取温度场的前 5 阶时间模态系数。
 ```bash
 python perform_svd.py
-```
 # 输出：dataset/process_data/svd_coeffs.csv
+```
 第三步：运行 Transformer 模型
 利用提取的时间系数训练模型，并预测未来 24 个时间步的变化。
 ```bash

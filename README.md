@@ -15,8 +15,8 @@ pip install -r requirements.txt
 构建包含“移动热源”与“冷却衰减”特征的二维温度场数据 (2000x50x50)。
 ```bash
 python generate_mock_data.py
-```
 # 输出：dataset/mock_data/mock_casting_data.npy
+```
 第二步：SVD 特征降维
 提取温度场的前 5 阶时间模态系数。
 ```bash

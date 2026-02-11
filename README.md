@@ -8,6 +8,7 @@
 本项目基于 Python 3.10 + PyTorch 构建。
 ```bash
 pip install -r requirements.txt
+```bash
 ## 3. 快速复现（Quick Start）
 请按顺序执行以下脚本即可复现全流程实验。
 第一步：生成仿真数据
